@@ -1,3 +1,38 @@
+# SongSphere
+
+## Developers:
+| Name | Email | SchoolID | 
+| ---- | ----- | -------- |
+| Erwin Medina | erwinmedina@csu.fullerton.edu | 888233475
+| Adrian | adrivnlopez@csu.fullerton.edu | 887302933 |
+| Kai | kai12@csu.fullerton.edu | 884780172 |
+| Bryan Alarcon | alarconb0@csu.fullerton.edu | 889342366 |
+
+## About
+
+This project is designed for people who enjoy music. We wanted people who enjoy using a service like Spotify and giving them something a bit more. The idea behind SongSphere is to offer a richer experience, offer more creativity with playlists, and interact with other users.
+
+## Trello
+
+This is how we stayed organized and kept the project moving forward:
+
+[Trello Board](https://trello.com/b/bue7xRZf/songsphere)
+
+## Images
+[Images of our project would go here]
+
+## Tools Used:
+- Typescript
+- HTML / CSS
+
+## Future Items
+- User Login/Logout
+- Implement videos
+- Clean/Slick design
+- Interaction w/ other users
+- Transfer to mobile
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
