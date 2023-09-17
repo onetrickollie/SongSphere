@@ -1,0 +1,84 @@
+/* songsphere.css */
+
+/* Styling for the songsphere container */
+.songsphere {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for the header section */
+  .songsphere-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the album artwork image */
+  .songsphere-header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #333;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  /* CSS to apply rotation animation to the album artwork */
+  .rotate {
+    animation: rotate 6s linear infinite;
+  }
+  
+  /* Styling for track information */
+  .music-info {
+    flex-grow: 1;
+    padding-left: 20px;
+  }
+  
+  /* Styling for song title */
+  .music-info h3 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  /* Styling for artist name */
+  .music-info p {
+    font-size: 16px;
+    margin: 0;
+    color: #777;
+  }
+  
+  /* Styling for music controls (play/pause and next buttons) */
+  .music-controls {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  /* Styling for buttons */
+  .music-controls button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  /* Hover effect for buttons */
+  .music-controls button:hover {
+    background-color: #555;
+  }
+  
+  /* Keyframes for image rotation */
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
